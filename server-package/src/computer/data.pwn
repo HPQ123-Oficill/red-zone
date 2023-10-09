@@ -1,0 +1,124 @@
+
+
+// var
+#define MAX_MARKET_OBJECT 			(500)  // market obj
+#define _init_PC()					reset_var_PC
+
+enum E_MARKET_OBJECT {
+	m_ID,
+	m_Model,
+	m_Type,
+	m_Price,
+	m_Userid,
+	m_Obj_ID,
+	m_Owner[MAX_PLAYER_NAME],
+	m_Title[80],
+	m_Description[180]
+}
+
+// click action
+enum {
+	PC_CLICK_PASSWORD,
+	PC_CLICK_LOGIN,
+	PC_CLICK_DS,
+	PC_CLICK_BROWSER,
+	PC_CLICK_SHOP,
+	PC_CLICK_MARKET,
+	PC_CLICK_WINDOWS,
+	PC_CLICK_CLOSE_DS,
+
+	PC_CLICK_DS_CHEAP,
+	PC_CLICK_DS_NORMAL,
+	PC_CLICK_DS_SPORT,
+	PC_CLICK_DS_SPECIAL,
+
+	PC_CLICK_GOOGLE,
+	PC_CLICK_DRPCIV,
+	PC_CLICK_TOTALBET,
+	PC_CLICK_REDSKINS,
+	PC_CLICK_YOUTUBE,
+
+	PC_CLICK_DS_PREV,
+	PC_CLICK_DS_NEXT,
+
+	PC_CLICK_DS_EXP_1,
+	PC_CLICK_DS_EXP_2,
+	PC_CLICK_DS_EXP_3,
+	PC_CLICK_DS_EXP_4,
+	PC_CLICK_DS_EXP_5,
+	PC_CLICK_DS_EXP_6,
+
+	PC_CLICK_DS_BUY,
+	PC_CLICK_DS_SELL,
+	PC_CLICK_DS_EDIT,
+	PC_CLICK_DS_BACK,
+
+	// browser
+	BROWSER_CLICK_SEARCH,
+	BROWSER_CLICK_BACK,
+
+	// BET
+	BROWSER_CLICK_BET1,
+	BROWSER_CLICK_BET2,
+	BROWSER_CLICK_BET3,
+	BROWSER_CLICK_BET4,
+	BROWSER_CLICK_BET5,
+
+	BROWSER_CLICK_PLACEBET,
+
+	BROWSER_CLICK_SKIN_1,
+	BROWSER_CLICK_SKIN_2,
+	BROWSER_CLICK_SKIN_3,
+	BROWSER_CLICK_CSKIN_1, BROWSER_CLICK_CSKIN_10 = BROWSER_CLICK_CSKIN_1+10
+}
+
+// action PC
+enum {
+	INVALID_ACTION_PC,
+	PC_ACTION_LOADING,
+	PC_ACTION_LOGIN,
+	PC_ACTION_MAIN,
+	PC_ACTION_DEALERSHIP,
+	PC_ACTION_BROWSER,
+
+	PC_ACTION_DS,
+
+	PC_ACTION_DS_INFO
+}
+
+enum PC_DATA {
+	bool:_show,
+	_time,
+	_type,
+	_count,
+	_page,
+	bool:_action,
+	bool:_login,
+	_ID,
+	_restPC,
+
+	_temp_type
+}
+new 
+	_PC[MAX_PLAYERS][PC_DATA],
+	reset_var_PC[PC_DATA] = {
+		true, 30, PC_ACTION_LOADING, 108, 1, false, false, 0, 0, 0
+	}
+;
+new 
+	PlayerText: PCPTD[MAX_PLAYERS][36], Text:PCTD[50],
+ 	PlayerText:explore_TD[MAX_PLAYERS][10] = {{PlayerText:INVALID_TEXT_DRAW, ...}, ...},
+	Text:PCTD_INT[16], Text:PCTD_LOG[8], Text:PCTD_dealerTD[31], PlayerText: PCTD_dealerPTD[MAX_PLAYERS][13] = {{PlayerText:-1, ...},...},
+	MarketInfo[MAX_MARKET_OBJECT][E_MARKET_OBJECT] = {{0, -1, 0, 0, 0, 0, "None", "None", "none"},...},
+	PlayerText: p_PCTD_LOG[MAX_PLAYERS][2], Text: PCTD_MAIN[23], Text: int_dealer_TD[29], totalBetPlace,
+	Text:BrowserTD[13], Text:GoogleTD[14], Text:TotalBet[35], Text:hourseTD[5], Text:manHoursTD[5],
+	Text:RD_SkinsTD[35], Text:errorBrowser[8]
+;
+
+enum {
+	PAGE_TYPE_GOOGLE,
+	PAGE_TYPE_DRPCIV,
+	PAGE_TYPE_TOTALBET,
+	PAGE_TYPE_REDSKINS,
+	PAGE_TYPE_YOUTUBE
+}
