@@ -46,9 +46,9 @@ function check_p_cars(playerid,cache,i,check,idd) {
 		cache_get_value_name_int(i, "Rainbow", CarInfo[idd][cRainbow]);
 		cache_get_value_name_int(i, "VipStatus", CarInfo[idd][cVipStatus]);
 
-		cache_get_value_name_sscanf(i, Components, 	a<i>[4],  CarInfo[idd][cComponents]);
-		cache_get_value_name_sscanf(i, Mod, 		a<i>[14], CarInfo[idd][cMod]);
-		cache_get_value_name_sscanf(i, VipPos, 		a<f>[6],  CarInfo[idd][cVipPos]);
+		cache_get_value_name_sscanf(i, "Components", 	a<i>[4],  CarInfo[idd][cComponents]);
+		cache_get_value_name_sscanf(i, "Mod", 		a<i>[14], CarInfo[idd][cMod]);
+		cache_get_value_name_sscanf(i, "VipPos", 		a<f>[6],  CarInfo[idd][cVipPos]);
 
 		CarInfo[idd][cOnline] = playerid;
 		if(CarInfo[idd][cDays] >= CarInfo[idd][cLeft] && CarInfo[idd][cLeft] != 0) {

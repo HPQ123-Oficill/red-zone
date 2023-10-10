@@ -107,17 +107,14 @@ redist::CheckAccount(playerid) {
 
 			new result[128];
 
-			cache_get_value_name_sscanf(0, guns, a<i>[5], gunset[playerid]);
-			cache_get_value_name_sscanf(0, Skins, a<i>[20], PlayerInfo[playerid][pSkin]);
+			cache_get_value_name_sscanf(0, "guns", a<i>[5], gunset[playerid]);
+			cache_get_value_name_sscanf(0, "Skins", a<i>[20], PlayerInfo[playerid][pSkin]);
 
 			cache_get_value_name(0, "vouchers", result);
 			sscanf(result, "a<i>[3]", PlayerInfo[playerid][pVoucher]);
-
-			cache_get_value_name(0, "missions_bp", result);
-			sscanf(result, "a<i>[40]", playerBPTask[playerid]);
-
-			cache_get_value_name(0, "bp_claimed", result);
-			sscanf(result, "a<i>[40]", PlayerInfo[playerid][bpClaimed]);
+			
+			cache_get_value_name_sscanf(0, "missions_bp", a<i>[40], playerBPTask[playerid]);
+			cache_get_value_name_sscanf(0, "bp_claimed", a<i>[40], PlayerInfo[playerid][bpClaimed]);
 
 			cache_get_value_name(0, "Attached", result);
 			sscanf(result, "p<|>iiii", PlayerInfo[playerid][pAttached][0], PlayerInfo[playerid][pAttached][1], PlayerInfo[playerid][pAttached][2], PlayerInfo[playerid][pAttached][3]);
@@ -208,7 +205,7 @@ redist::CheckAccount(playerid) {
 			SpawnPlayer(playerid);
 			ResetAllAnimation(playerid);
 
-			inventory.Init(playerid, PlayerInfo[playerid][pSQLID], PlayerInfo[playerid][pModel]);
+			//inventory.Init(playerid, PlayerInfo[playerid][pSQLID], PlayerInfo[playerid][pModel]);
 
 			if(PlayerInfo[playerid][pAdmin] || PlayerInfo[playerid][pHelper]) {
 				//check_discord_security(0, "Discord_Token", playerid);
@@ -222,7 +219,7 @@ redist::CheckAccount(playerid) {
 					PlayerInfo[playerid][pHelper] = 0;
 					KickEx(playerid);
 					return true;
-				}
+				} else init_account_others(playerid);
 			} else init_account_others(playerid);
 		}
 	}

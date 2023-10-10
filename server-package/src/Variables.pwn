@@ -49,16 +49,16 @@
 #define MySQL_PassLocal 			("")*/
 
 
-#define MySQL_IPLocal 			("")
-#define MySQL_UserLocal 		("")
-#define MySQL_DataLocal 		("")
+#define MySQL_IPLocal 			("localhost")
+#define MySQL_UserLocal 		("root")
+#define MySQL_DataLocal 		("samp")
 #define MySQL_PassLocal 		("")
 
 
 #define MySQL_IPHost 			("127.0.0.1")
 #define MySQL_UserHost 			("root")
 #define MySQL_DataHost 			("samp")
-#define MySQL_PassHost 			("")
+#define MySQL_PassHost 			("h3487gh38gg")
 
 // ============================== Colors defines =============================== //
 
@@ -98,7 +98,7 @@
 	GetPVarInt(%0, "YourDevice")
 
 new sql_result[144];
-#define cache_get_value_name_sscanf(%0,%1,%2,%3) cache_get_value_name(%0,#%1,sql_result)&&sscanf(sql_result,#%2,%3)
+#define cache_get_value_name_sscanf(%0,%1,%2,%3) cache_get_value_name(%0,%1,sql_result)&&sscanf(sql_result,#%2,%3)
 
 std::compare(const string:string1[], const string:string2[])
 	return !strcmp(string1,string2,true)?true:false;

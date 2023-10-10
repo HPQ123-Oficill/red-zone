@@ -10,6 +10,7 @@
 #define YSI_NO_OPTIMISATION_MESSAGE
 #define YSI_NO_VERSION_CHECK
 
+
 #include <a_samp>
 #include <Pawn.CMD>
 #include <gvar>
@@ -29,7 +30,7 @@
 #include <BigInt>
 #include <easyDialog>
 #include <dialog_gtav>
-#include <nex-ac>
+//#include <nex-ac>
 
 #include <YSI_Coding\y_hooks>
 
@@ -44,89 +45,6 @@ enum {
 }
 
 #include "./src/Variables.pwn"
-#include <inventory>
-
-
-cmd:addinv(playerid, params[]) {
-	switch(strval(params)) {
-		case 0: inventory.Add(playerid, SLOT_GASCAN);
-		case 1: inventory.Add(playerid, SLOT_MAGIC_CRATE);
-		case 2: inventory.Add(playerid, SLOT_PP);
-	}
-	return true;
-}
-
-cmd:shopinv(playerid) {
-	shop.Init(playerid);
-
-	shop.Add(playerid, 0, SLOT_GASCAN);
-	shop.Add(playerid, 1, SLOT_MAGIC_CRATE);
-
-	shop.Show(playerid);
-	return true;
-}
-
-public Shop:OnPlayerClick(playerid, slot, itemtype) {
-
-	return true;
-}
-
-hook OnGameModeInit() {
-	
-	shop.CreateItem(SLOT_GASCAN, 1650, "Gas Can", 1000000);
-	shop.CreateItem(SLOT_MAGIC_CRATE, 19918, "Magic Crate", 100);
-	shop.CreateItem(SLOT_PP, 1247, "Premium Points", 50);
-
-	inventory.CreateItem(SLOT_INVALID, 18685, "None");
-	inventory.CreateItem(SLOT_GASCAN, 1650, "Gas Can");
-	inventory.CreateItem(SLOT_MAGIC_CRATE, 19918, "Magic Crate", ._color = 0xFF00FFFF);
-	inventory.CreateItem(SLOT_PP, 1247, "Premium Points", ._color=0xFFFF00FF);
-
-	new i=-1;
-	while(++i<SLOT_MAX_SKIN) inventory.CreateItem(SLOT_SKIN + i, i, "Skin", .zoom = 0.89);
-	return true;
-}
-
-public OnPlayerInvetarClick(playerid, slot, itemid)<using> {
-	switch(itemid) {
-		case SLOT_SKIN..SLOT_MAX_SKIN: {
-			if(inventory.AlreadySkin(playerid)) return true;
-			inventory.SetSkin(playerid, inventory.Value(playerid, slot));
-			inventory.ClearSlot(playerid, slot);
-		}
-	}
-	return true;
-}
-public OnPlayerInvetarClick(playerid, slot, itemid)<info> {
-	SCMf(playerid, -1, "(info) %d %d", slot, itemid);
-	return true;
-}
-public OnPlayerInvetarClick(playerid, attachid, attach_type)<attach> {
-	switch(attachid) {
-		case 0: {
-			inventory.Add(playerid, inventory.GetAttach(playerid, 0));
-			inventory.RemoveAttach(playerid, attachid);
-		}
-	}
-	return true;
-}
-public OnPlayerInvetarClick(playerid, bool:put)<skin> {
-	if(put) {
-		inventory.Add(playerid, SLOT_SKIN + inventory.GetSkin(playerid), inventory.GetSkin(playerid), "ID:%d", -1);
-		inventory.SetSkin(playerid, inventory.DefaultSkin());
-	}
-	return true;
-}
-
-public Inventory:Data_Cache(playerid, slot, type, value) {
-	if(type-1 > SLOT_SKIN && type < SLOT_MAX_SKIN) inventory.SlotInfo(playerid, slot, "ID:%d");
-	return true;
-}
-
-hook OnPlayerDisconnect(playerid) {
-	inventory.UpdateData(playerid, PlayerInfo[playerid][pSQLID]);
-	return true;
-}
 
 enum {
 	HOST_LOCAL,
