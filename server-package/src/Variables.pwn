@@ -57,7 +57,7 @@
 
 #define MySQL_IPHost 			("127.0.0.1")
 #define MySQL_UserHost 			("root")
-#define MySQL_DataHost 			("red-zone")
+#define MySQL_DataHost 			("samp")
 #define MySQL_PassHost 			("")
 
 // ============================== Colors defines =============================== //

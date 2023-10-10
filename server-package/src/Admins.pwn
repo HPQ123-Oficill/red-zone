@@ -1044,7 +1044,7 @@ YCMD:makeadmin(playerid, params[]) {
 	} else Iter_Add(_Player<ADMIN>, id);
 
 
-	if(PlayerInfo[id][pAdmin]==0&&level) registerAccoutnDiscord(id);
+	//if(PlayerInfo[id][pAdmin]==0&&level) registerAccoutnDiscord(id);
 
 	new _hdwid[65];
 	gpci(id, _hdwid, sizeof _hdwid);

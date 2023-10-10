@@ -3702,8 +3702,3 @@ stock GetNameEx(playerid) {
 	GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
 	return playername;
 }
-std::IsNumeric(const string[],i=-1,j=-1) {
-    j=strlen(string);
-    while(++i<j) if string[i]>'/'&&string[i]<':' *then continue; else return false;
-    return true;
-}

@@ -1,16 +1,19 @@
 // Main
 #pragma compat 1
 #pragma dynamic (64*1024)
+
+#define YSI_NO_HEAP_MALLOC
 #define YSI_NO_MODE_CACHE
-#define YSI_YES_HEAP_MALLOC
-#define DYNAMIC_MEMORY (65536)
+#define YSI_NO_CACHE_MESSAGE
+#define CGEN_MEMORY 60000
+
 #define YSI_NO_OPTIMISATION_MESSAGE
 #define YSI_NO_VERSION_CHECK
 
 #include <a_samp>
+#include <Pawn.CMD>
 #include <gvar>
 #include <a_mysql>	
-#include <Pawn.CMD>
 #include <fly>  
 #include <gangzone>
 #include <streamer>
@@ -29,6 +32,7 @@
 #include <nex-ac>
 
 #include <YSI_Coding\y_hooks>
+
 
 enum {
 	SLOT_INVALID,
@@ -134,7 +138,7 @@ new bool:h_status = bool:HOST_GLOBAL;
 
 // modules
 #include "./src/encrypt"
-#include "./src/protection.pwn"
+//#include "./src/protection.pwn"
 #include "./src/antiCheat/main.pwn"
 #include "./src/Admins.pwn"
 #include "./src/atm.pwn"

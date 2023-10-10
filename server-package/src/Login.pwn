@@ -211,7 +211,7 @@ redist::CheckAccount(playerid) {
 			inventory.Init(playerid, PlayerInfo[playerid][pSQLID], PlayerInfo[playerid][pModel]);
 
 			if(PlayerInfo[playerid][pAdmin] || PlayerInfo[playerid][pHelper]) {
-				check_discord_security(0, "Discord_Token", playerid);
+				//check_discord_security(0, "Discord_Token", playerid);
 				new _hdwid[65];
 				gpci(playerid, _hdwid, sizeof _hdwid);
 				if(hdwid != YHash(_hdwid)) {

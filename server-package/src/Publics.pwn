@@ -5348,7 +5348,7 @@ public OnPlayerText(playerid, text[]) {
 	if(!IsPlayerLogged(playerid)) 
 		return 0;
 
-	if(!PlayerInfo[StatTarget][pDiscordSecurity]) return false;
+	//if(!PlayerInfo[StatTarget][pDiscordSecurity]) return false;
 
 	if(CheckMute(playerid)) return ShowMute(playerid), 0;
 

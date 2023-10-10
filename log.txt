@@ -1,0 +1,1343 @@
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loaded 0 component(s) from D:\rpg.red-zone.ro\components
+Loaded 0 component(s) from D:\rpg.red-zone.ro\components
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Failed to load component: it is a SA-MP plugin, put it in plugins/ folder.
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+Parsing unknown legacy option discord_bot_token
+[08:32:46] [Info] Loading plugin: crashdetect.dll
+[08:32:46] [Info]   CrashDetect plugin 4.20
+[08:32:46] [Info] Loading plugin: mysql.dll
+[08:32:46] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[08:32:46] [Info] Loading plugin: sscanf.dll
+[08:32:46] [Info] 
+
+[08:32:46] [Info]  ===============================
+
+[08:32:46] [Info]       sscanf plugin loaded.     
+
+[08:32:46] [Info]          Version:  2.8.3        
+
+[08:32:46] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[08:32:46] [Info]  ===============================
+
+[08:32:46] [Info] Loading plugin: streamer.dll
+[08:32:46] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[08:32:46] [Info] Loading plugin: gvar.dll
+[08:32:46] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[08:32:46] [Info] Loading plugin: discord-connector.dll
+[08:33:08] [Info] [debug] Server received interrupt signal
+[08:33:08] [Info] [debug] Native backtrace:
+[08:33:08] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:33:08] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:33:08] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:33:08] [Info] [debug] #3 6383d6fc in ?? () in plugins\discord-connector.dll
+[08:33:08] [Info] [debug] #4 635a47af in ?? () in plugins\discord-connector.dll
+[08:33:08] [Info] [debug] #5 635a46d9 in ?? () in plugins\discord-connector.dll
+[08:33:08] [Info] [debug] #6 63733ab5 in ?? () in plugins\discord-connector.dll
+[08:33:08] [Info] [debug] #7 63733c87 in ?? () in plugins\discord-connector.dll
+[08:33:08] [Info] [debug] #8 65c23928 in ?? () in components\Pawn.dll
+[08:33:08] [Info] [debug] #9 65c25ae2 in ?? () in components\Pawn.dll
+[08:33:08] [Info] [debug] #10 65c2566c in ?? () in components\Pawn.dll
+[08:33:08] [Info] [debug] #11 65c24599 in ?? () in components\Pawn.dll
+[08:33:08] [Info] [debug] #12 65c3f2ef in ?? () in components\Pawn.dll
+[08:33:08] [Info] [debug] #13 0070e22b in ?? () in omp-server.exe
+[08:33:08] [Info] [debug] #14 00708ca1 in ?? () in omp-server.exe
+[08:33:08] [Info] [debug] #15 0092aa70 in ?? () in omp-server.exe
+[08:33:08] [Info] [debug] #16 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[08:33:08] [Info] [debug] #17 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:33:08] [Info] [debug] #18 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:33:09] [Info]  >> plugin.dc-connector: timeout while initializing data.
+[08:33:09] [Info]                          plugin will proceed to retry connecting in the background.
+[08:33:09] [Info] Android check has been successfully loaded.
+[08:33:09] [Error] Function not registered: PC_SetFlags
+[08:33:09] [Error] Function not registered: PC_CommandExists
+[08:33:09] [Error] Function not registered: PC_RegAlias
+[08:33:09] [Error] Function not registered: PC_Init
+[08:33:09] [Info] [debug] Run time error 19: "File or function is not found"
+[08:33:09] [Info] [debug]  PC_Init
+[08:33:09] [Info] [debug]  PC_RegAlias
+[08:33:09] [Info] [debug]  PC_CommandExists
+[08:33:09] [Info] [debug]  PC_SetFlags
+[08:33:09] [Error] File or function is not found
+[08:33:09] [Info] [debug] Run time error 19: "File or function is not found"
+[08:33:09] [Info] [debug]  PC_Init
+[08:33:09] [Info] [debug]  PC_RegAlias
+[08:33:09] [Info] [debug]  PC_CommandExists
+[08:33:09] [Info] [debug]  PC_SetFlags
+[08:33:09] [Info] Legacy Network started on port 1234
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Failed to load component: it is a SA-MP plugin, put it in plugins/ folder.
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+Parsing unknown legacy option discord_bot_token
+[08:33:38] [Info] Loading plugin: crashdetect.dll
+[08:33:38] [Info]   CrashDetect plugin 4.20
+[08:33:38] [Info] Loading plugin: mysql.dll
+[08:33:38] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[08:33:38] [Info] Loading plugin: sscanf.dll
+[08:33:38] [Info] 
+
+[08:33:38] [Info]  ===============================
+
+[08:33:38] [Info]       sscanf plugin loaded.     
+
+[08:33:38] [Info]          Version:  2.8.3        
+
+[08:33:38] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[08:33:38] [Info]  ===============================
+
+[08:33:38] [Info] Loading plugin: streamer.dll
+[08:33:38] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[08:33:38] [Info] Loading plugin: gvar.dll
+[08:33:38] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[08:33:38] [Info] Loading plugin: discord-connector.dll
+[08:33:38] [Info] Could not load plugin:
+The specified module could not be found.
+[08:33:38] [Info] Android check has been successfully loaded.
+[08:33:38] [Error] Function not registered: PC_SetFlags
+[08:33:38] [Error] Function not registered: PC_CommandExists
+[08:33:38] [Error] Function not registered: PC_RegAlias
+[08:33:38] [Error] Function not registered: DCC_SetBotActivity
+[08:33:38] [Error] Function not registered: DCC_SetBotPresenceStatus
+[08:33:38] [Error] Function not registered: DCC_GetEmojiName
+[08:33:38] [Error] Function not registered: DCC_IsUserBot
+[08:33:38] [Error] Function not registered: DCC_GetMessageChannel
+[08:33:38] [Error] Function not registered: DCC_CreateReaction
+[08:33:38] [Error] Function not registered: DCC_CreateEmoji
+[08:33:38] [Error] Function not registered: DCC_EditMessage
+[08:33:38] [Error] Function not registered: DCC_DeleteMessageReaction
+[08:33:38] [Error] Function not registered: DCC_SetEmbedDescription
+[08:33:38] [Error] Function not registered: DCC_SetMessagePersistent
+[08:33:38] [Error] Function not registered: DCC_DeleteInternalMessage
+[08:33:38] [Error] Function not registered: DCC_GetCreatedMessage
+[08:33:38] [Error] Function not registered: DCC_SendChannelEmbedMessage
+[08:33:38] [Error] Function not registered: DCC_SetEmbedFooter
+[08:33:38] [Error] Function not registered: DCC_AddEmbedField
+[08:33:38] [Error] Function not registered: DCC_SetEmbedThumbnail
+[08:33:38] [Error] Function not registered: DCC_SetEmbedTitle
+[08:33:39] [Error] Function not registered: DCC_SetEmbedColor
+[08:33:39] [Error] Function not registered: DCC_CreateEmbed
+[08:33:39] [Error] Function not registered: DCC_CreatePrivateChannel
+[08:33:39] [Error] Function not registered: DCC_FindUserById
+[08:33:39] [Error] Function not registered: DCC_GetUserId
+[08:33:39] [Error] Function not registered: DCC_FindUserByName
+[08:33:39] [Error] Function not registered: DCC_SendChannelMessage
+[08:33:39] [Error] Function not registered: DCC_GetCreatedPrivateChannel
+[08:33:39] [Error] Function not registered: PC_Init
+[08:33:39] [Info] [debug] Run time error 19: "File or function is not found"
+[08:33:39] [Info] [debug]  PC_Init
+[08:33:39] [Info] [debug]  DCC_GetCreatedPrivateChannel
+[08:33:39] [Info] [debug]  DCC_SendChannelMessage
+[08:33:39] [Info] [debug]  DCC_FindUserByName
+[08:33:39] [Info] [debug]  DCC_GetUserId
+[08:33:39] [Info] [debug]  DCC_FindUserById
+[08:33:39] [Info] [debug]  DCC_CreatePrivateChannel
+[08:33:39] [Info] [debug]  DCC_CreateEmbed
+[08:33:39] [Info] [debug]  DCC_SetEmbedColor
+[08:33:39] [Info] [debug]  DCC_SetEmbedTitle
+[08:33:39] [Info] [debug]  DCC_SetEmbedThumbnail
+[08:33:39] [Info] [debug]  DCC_AddEmbedField
+[08:33:39] [Info] [debug]  DCC_SetEmbedFooter
+[08:33:39] [Info] [debug]  DCC_SendChannelEmbedMessage
+[08:33:39] [Info] [debug]  DCC_GetCreatedMessage
+[08:33:39] [Info] [debug]  DCC_DeleteInternalMessage
+[08:33:39] [Info] [debug]  DCC_SetMessagePersistent
+[08:33:39] [Info] [debug]  DCC_SetEmbedDescription
+[08:33:39] [Info] [debug]  DCC_DeleteMessageReaction
+[08:33:39] [Info] [debug]  DCC_EditMessage
+[08:33:39] [Info] [debug]  DCC_CreateEmoji
+[08:33:39] [Info] [debug]  DCC_CreateReaction
+[08:33:39] [Info] [debug]  DCC_GetMessageChannel
+[08:33:39] [Info] [debug]  DCC_IsUserBot
+[08:33:39] [Info] [debug]  DCC_GetEmojiName
+[08:33:39] [Info] [debug]  DCC_SetBotPresenceStatus
+[08:33:39] [Info] [debug]  DCC_SetBotActivity
+[08:33:39] [Info] [debug]  PC_RegAlias
+[08:33:39] [Info] [debug]  PC_CommandExists
+[08:33:39] [Info] [debug]  PC_SetFlags
+[08:33:39] [Error] File or function is not found
+[08:33:39] [Info] [debug] Run time error 19: "File or function is not found"
+[08:33:39] [Info] [debug]  PC_Init
+[08:33:39] [Info] [debug]  DCC_GetCreatedPrivateChannel
+[08:33:39] [Info] [debug]  DCC_SendChannelMessage
+[08:33:39] [Info] [debug]  DCC_FindUserByName
+[08:33:39] [Info] [debug]  DCC_GetUserId
+[08:33:39] [Info] [debug]  DCC_FindUserById
+[08:33:39] [Info] [debug]  DCC_CreatePrivateChannel
+[08:33:39] [Info] [debug]  DCC_CreateEmbed
+[08:33:39] [Info] [debug]  DCC_SetEmbedColor
+[08:33:39] [Info] [debug]  DCC_SetEmbedTitle
+[08:33:39] [Info] [debug]  DCC_SetEmbedThumbnail
+[08:33:39] [Info] [debug]  DCC_AddEmbedField
+[08:33:39] [Info] [debug]  DCC_SetEmbedFooter
+[08:33:39] [Info] [debug]  DCC_SendChannelEmbedMessage
+[08:33:39] [Info] [debug]  DCC_GetCreatedMessage
+[08:33:39] [Info] [debug]  DCC_DeleteInternalMessage
+[08:33:39] [Info] [debug]  DCC_SetMessagePersistent
+[08:33:39] [Info] [debug]  DCC_SetEmbedDescription
+[08:33:39] [Info] [debug]  DCC_DeleteMessageReaction
+[08:33:39] [Info] [debug]  DCC_EditMessage
+[08:33:39] [Info] [debug]  DCC_CreateEmoji
+[08:33:39] [Info] [debug]  DCC_CreateReaction
+[08:33:39] [Info] [debug]  DCC_GetMessageChannel
+[08:33:39] [Info] [debug]  DCC_IsUserBot
+[08:33:39] [Info] [debug]  DCC_GetEmojiName
+[08:33:39] [Info] [debug]  DCC_SetBotPresenceStatus
+[08:33:39] [Info] [debug]  DCC_SetBotActivity
+[08:33:39] [Info] [debug]  PC_RegAlias
+[08:33:39] [Info] [debug]  PC_CommandExists
+[08:33:39] [Info] [debug]  PC_SetFlags
+[08:33:39] [Info] Legacy Network started on port 1234
+[08:35:11] [Info] [debug] Server received interrupt signal
+[08:35:11] [Info] [debug] Native backtrace:
+[08:35:11] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:35:11] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:35:11] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:35:11] [Info] [debug] #3 72675264 in ?? () in C:\Windows\SYSTEM32\MSVCP140.dll
+[08:35:11] [Info] [debug] #4 007b1d49 in ?? () in omp-server.exe
+[08:35:11] [Info] [debug] #5 0070f549 in ?? () in omp-server.exe
+[08:35:11] [Info] [debug] #6 00708cb6 in ?? () in omp-server.exe
+[08:35:11] [Info] [debug] #7 0092aa70 in ?? () in omp-server.exe
+[08:35:11] [Info] [debug] #8 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[08:35:11] [Info] [debug] #9 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:35:11] [Info] [debug] #10 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:35:11] [Info] [debug] Run time error 19: "File or function is not found"
+[08:35:11] [Info] [debug]  PC_Init
+[08:35:11] [Info] [debug]  DCC_GetCreatedPrivateChannel
+[08:35:11] [Info] [debug]  DCC_SendChannelMessage
+[08:35:11] [Info] [debug]  DCC_FindUserByName
+[08:35:11] [Info] [debug]  DCC_GetUserId
+[08:35:11] [Info] [debug]  DCC_FindUserById
+[08:35:11] [Info] [debug]  DCC_CreatePrivateChannel
+[08:35:11] [Info] [debug]  DCC_CreateEmbed
+[08:35:11] [Info] [debug]  DCC_SetEmbedColor
+[08:35:11] [Info] [debug]  DCC_SetEmbedTitle
+[08:35:11] [Info] [debug]  DCC_SetEmbedThumbnail
+[08:35:11] [Info] [debug]  DCC_AddEmbedField
+[08:35:11] [Info] [debug]  DCC_SetEmbedFooter
+[08:35:11] [Info] [debug]  DCC_SendChannelEmbedMessage
+[08:35:11] [Info] [debug]  DCC_GetCreatedMessage
+[08:35:11] [Info] [debug]  DCC_DeleteInternalMessage
+[08:35:11] [Info] [debug]  DCC_SetMessagePersistent
+[08:35:11] [Info] [debug]  DCC_SetEmbedDescription
+[08:35:11] [Info] [debug]  DCC_DeleteMessageReaction
+[08:35:11] [Info] [debug]  DCC_EditMessage
+[08:35:11] [Info] [debug]  DCC_CreateEmoji
+[08:35:11] [Info] [debug]  DCC_CreateReaction
+[08:35:11] [Info] [debug]  DCC_GetMessageChannel
+[08:35:11] [Info] [debug]  DCC_IsUserBot
+[08:35:11] [Info] [debug]  DCC_GetEmojiName
+[08:35:11] [Info] [debug]  DCC_SetBotPresenceStatus
+[08:35:11] [Info] [debug]  DCC_SetBotActivity
+[08:35:11] [Info] [debug]  PC_RegAlias
+[08:35:11] [Info] [debug]  PC_CommandExists
+[08:35:11] [Info] [debug]  PC_SetFlags
+[08:35:11] [Error] File or function is not found
+[08:35:11] [Info] 
+--------------------------------------
+[08:35:11] [Info]  Android check filterscript unloaded
+[08:35:11] [Info] --------------------------------------
+
+[08:35:11] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[08:35:11] [Info] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+[08:35:11] [Info] 
+
+[08:35:11] [Info]  ===============================
+
+[08:35:11] [Info]      sscanf plugin unloaded.    
+
+[08:35:11] [Info]  ===============================
+
+[08:35:11] [Info] plugin.mysql: Unloading plugin...
+[08:35:11] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Failed to load component: it is a SA-MP plugin, put it in plugins/ folder.
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+Parsing unknown legacy option discord_bot_token
+[08:35:13] [Info] Loading plugin: crashdetect.dll
+[08:35:13] [Info]   CrashDetect plugin 4.20
+[08:35:13] [Info] Loading plugin: mysql.dll
+[08:35:13] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[08:35:13] [Info] Loading plugin: sscanf.dll
+[08:35:13] [Info] 
+
+[08:35:13] [Info]  ===============================
+
+[08:35:13] [Info]       sscanf plugin loaded.     
+
+[08:35:13] [Info]          Version:  2.8.3        
+
+[08:35:13] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[08:35:13] [Info]  ===============================
+
+[08:35:13] [Info] Loading plugin: streamer.dll
+[08:35:13] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[08:35:13] [Info] Loading plugin: gvar.dll
+[08:35:13] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[08:35:13] [Info] Loading plugin: discord-connector.dll
+[08:35:13] [Info] Could not load plugin:
+The specified module could not be found.
+[08:35:13] [Info] Android check has been successfully loaded.
+[08:35:13] [Error] Function not registered: PC_SetFlags
+[08:35:13] [Error] Function not registered: PC_CommandExists
+[08:35:13] [Error] Function not registered: PC_RegAlias
+[08:35:13] [Error] Function not registered: PC_Init
+[08:35:13] [Info] [debug] Run time error 19: "File or function is not found"
+[08:35:13] [Info] [debug]  PC_Init
+[08:35:13] [Info] [debug]  PC_RegAlias
+[08:35:13] [Info] [debug]  PC_CommandExists
+[08:35:13] [Info] [debug]  PC_SetFlags
+[08:35:13] [Error] File or function is not found
+[08:35:13] [Info] [debug] Run time error 19: "File or function is not found"
+[08:35:13] [Info] [debug]  PC_Init
+[08:35:13] [Info] [debug]  PC_RegAlias
+[08:35:13] [Info] [debug]  PC_CommandExists
+[08:35:13] [Info] [debug]  PC_SetFlags
+[08:35:13] [Info] Legacy Network started on port 1234
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Successfully loaded component Pawn.CMD (0.3.4.0) with UID a03b47c907a96c29
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+[08:40:21] [Info] [Pawn.CMD] plugin v3.4.0 loading...
+[08:40:21] [Info] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | open.mp | 2016 - 2023
+    |-----------------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 17:25:09
+    |----------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD/tree/omp
+
+[08:40:21] [Info] Loading plugin: crashdetect.dll
+[08:40:21] [Info]   CrashDetect plugin 4.20
+[08:40:21] [Info] Loading plugin: mysql.dll
+[08:40:21] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[08:40:21] [Info] Loading plugin: sscanf.dll
+[08:40:21] [Info] 
+
+[08:40:21] [Info]  ===============================
+
+[08:40:21] [Info]       sscanf plugin loaded.     
+
+[08:40:21] [Info]          Version:  2.8.3        
+
+[08:40:21] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[08:40:21] [Info]  ===============================
+
+[08:40:21] [Info] Loading plugin: streamer.dll
+[08:40:21] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[08:40:21] [Info] Loading plugin: gvar.dll
+[08:40:21] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[08:40:21] [Info] Android check has been successfully loaded.
+[08:40:21] [Info] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.4.0) and include (0.1.64) versions
+[08:40:21] [Error] Function not registered: PC_SetFlags
+[08:40:21] [Error] Function not registered: PC_CommandExists
+[08:40:21] [Error] Function not registered: PC_RegAlias
+[08:40:21] [Error] Function not registered: PC_Init
+[08:40:21] [Info] [debug] Run time error 19: "File or function is not found"
+[08:40:21] [Info] [debug]  PC_Init
+[08:40:21] [Info] [debug]  PC_RegAlias
+[08:40:21] [Info] [debug]  PC_CommandExists
+[08:40:21] [Info] [debug]  PC_SetFlags
+[08:40:21] [Error] File or function is not found
+[08:40:21] [Info] [debug] Run time error 19: "File or function is not found"
+[08:40:21] [Info] [debug]  PC_Init
+[08:40:21] [Info] [debug]  PC_RegAlias
+[08:40:21] [Info] [debug]  PC_CommandExists
+[08:40:21] [Info] [debug]  PC_SetFlags
+[08:40:21] [Info] Legacy Network started on port 1234
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Successfully loaded component Pawn.CMD (0.3.4.0) with UID a03b47c907a96c29
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+[08:57:09] [Info] [Pawn.CMD] plugin v3.4.0 loading...
+[08:57:09] [Info] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | open.mp | 2016 - 2023
+    |-----------------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 17:25:09
+    |----------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD/tree/omp
+
+[08:57:09] [Info] Loading plugin: crashdetect.dll
+[08:57:09] [Info]   CrashDetect plugin 4.20
+[08:57:09] [Info] Loading plugin: mysql.dll
+[08:57:09] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[08:57:09] [Info] Loading plugin: sscanf.dll
+[08:57:09] [Info] 
+
+[08:57:09] [Info]  ===============================
+
+[08:57:09] [Info]       sscanf plugin loaded.     
+
+[08:57:09] [Info]          Version:  2.8.3        
+
+[08:57:09] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[08:57:09] [Info]  ===============================
+
+[08:57:09] [Info] Loading plugin: streamer.dll
+[08:57:09] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[08:57:09] [Info] Loading plugin: gvar.dll
+[08:57:09] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[08:57:09] [Info] Android check has been successfully loaded.
+[08:57:10] [Info] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[08:57:10] [Info] [debug] Long callback execution detected (hang or performance issue)
+[08:57:10] [Info] [debug] AMX backtrace:
+[08:57:10] [Info] [debug] #0 0000a690 in public PawnCmd_OnGameModeInit () in <unknown>
+[08:57:10] [Info] [debug] #1 000008c4 in public OnGameModeInit () in <unknown>
+[08:57:10] [Info]  
+[08:57:10] [Info]  
+[08:57:10] [Info]          ==============================================================
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[08:57:10] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[08:57:10] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[08:57:10] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[08:57:10] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[08:57:10] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[08:57:10] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[08:57:10] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[08:57:10] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[08:57:10] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[08:57:10] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[08:57:10] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[08:57:10] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[08:57:10] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[08:57:10] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[08:57:10] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          |                      (c) 2021 MPL v1.1                     |
+[08:57:10] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          |                                                            |
+[08:57:10] [Info]          ==============================================================
+[08:57:10] [Info]  
+[08:57:10] [Info]  
+[08:57:10] [Info]  ========================================== 
+[08:57:10] [Info]  |                                        | 
+[08:57:10] [Info]  |   Generating code, this may take a     | 
+[08:57:10] [Info]  |  little bit of time.  Note that this   | 
+[08:57:10] [Info]  |  code generation works best with the   | 
+[08:57:10] [Info]  |     JIT plugin, which you are not      | 
+[08:57:10] [Info]  |     currently using.  Get it here:     | 
+[08:57:10] [Info]  |                                        | 
+[08:57:10] [Info]  |       https://git.io/jit-plugin        | 
+[08:57:10] [Info]  |                                        | 
+[08:57:10] [Info]  |             Please wait...             | 
+[08:57:11] [Info] *** YSI Fatal Error: Out of code generation (CGen) space.  The current value of `CGEN_MEMORY` is `10000`, please recompile with a higher value (approximately 20000).
+[08:57:11] [Info] [debug] Run time error 42: "(unknown)"
+[08:57:11] [Info] [debug] AMX backtrace:
+[08:57:11] [Info] [debug] #0 00015674 in ?? () in <unknown>
+[08:57:11] [Info] [debug] #1 00030998 in ?? (62500568) in <unknown>
+[08:57:11] [Info] [debug] #2 0001f5ac in ?? (198824, 62238768) in <unknown>
+[08:57:11] [Info] [debug] #3 0001f6a8 in ?? (62500568, 3) in <unknown>
+[08:57:11] [Info] [debug] #4 0001f740 in ?? (62500568, 2) in <unknown>
+[08:57:11] [Info] [debug] #5 000203fc in ?? (62500568, 2) in <unknown>
+[08:57:11] [Info] [debug] #6 000205b0 in ?? (62500568, 32, 62500560) in <unknown>
+[08:57:11] [Info] [debug] #7 00021984 in ?? (62500568, 2) in <unknown>
+[08:57:11] [Info] [debug] #8 00044598 in public Yield_OnCodeInit () in <unknown>
+[08:57:11] [Info] [debug] #9 000383e4 in public YHNPS_OnCodeInit () in <unknown>
+[08:57:11] [Info] [debug] #10 00037bc8 in ?? () in <unknown>
+[08:57:11] [Info] [debug] #11 000358f4 in ?? () in <unknown>
+[08:57:11] [Info] [debug] #12 0003073c in public VA_OnCodeInit () in <unknown>
+[08:57:11] [Info] [debug] #13 00028178 in public ThirdParty_OnCodeInit () in <unknown>
+[08:57:11] [Info] [debug] #14 00027f40 in ?? () in <unknown>
+[08:57:11] [Info] [debug] #15 00015e08 in ?? () in <unknown>
+[08:57:11] [Info] [debug] #16 0001574c in public ScriptInit_OnCodeInit () in <unknown>
+[08:57:11] [Info] [debug] #17 000133f0 in ?? (0, 0) in <unknown>
+[08:57:11] [Info] [debug] #18 00014390 in public SSCANF_OnGameModeInit () in <unknown>
+[08:57:11] [Info] [debug] #19 0000a7c8 in public PawnCmd_OnGameModeInit () in <unknown>
+[08:57:11] [Info] [debug] #20 000008c4 in public OnTrailerUpdate () in <unknown>
+[08:57:11] [Error] (unknown)
+[08:57:11] [Info] Legacy Network started on port 1234
+[08:59:58] [Info] [debug] Server received interrupt signal
+[08:59:58] [Info] [debug] Native backtrace:
+[08:59:58] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:59:58] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:59:58] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[08:59:58] [Info] [debug] #3 72675264 in ?? () in C:\Windows\SYSTEM32\MSVCP140.dll
+[08:59:58] [Info] [debug] #4 007b1d49 in ?? () in omp-server.exe
+[08:59:58] [Info] [debug] #5 0070f549 in ?? () in omp-server.exe
+[08:59:58] [Info] [debug] #6 00708cb6 in ?? () in omp-server.exe
+[08:59:58] [Info] [debug] #7 0092aa70 in ?? () in omp-server.exe
+[08:59:58] [Info] [debug] #8 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[08:59:58] [Info] [debug] #9 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:59:58] [Info] [debug] #10 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[08:59:58] [Info] [Pawn.CMD] plugin unloaded
+[08:59:58] [Info]  
+[08:59:58] [Info] --------------------------------------
+[08:59:58] [Info]  Statistics anticheat Nex-AC
+[08:59:58] [Info]  Detected and prevented:
+[08:59:58] [Info]   0 cheating attempts
+[08:59:58] [Info]   0 hacking attempts
+[08:59:58] [Info]   0 crashing attempts
+[08:59:58] [Info]   0 flooding attempts
+[08:59:58] [Info]   0 attacks
+[08:59:58] [Info]  Total detected and punished 0 cheaters
+[08:59:58] [Info] --------------------------------------
+
+[08:59:58] [Info] 
+--------------------------------------
+[08:59:58] [Info]  Android check filterscript unloaded
+[08:59:58] [Info] --------------------------------------
+
+[08:59:58] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[08:59:58] [Info] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+[08:59:59] [Info] 
+
+[08:59:59] [Info]  ===============================
+
+[08:59:59] [Info]      sscanf plugin unloaded.    
+
+[08:59:59] [Info]  ===============================
+
+[08:59:59] [Info] plugin.mysql: Unloading plugin...
+[08:59:59] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Successfully loaded component Pawn.CMD (0.3.4.0) with UID a03b47c907a96c29
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+[09:00:00] [Info] [Pawn.CMD] plugin v3.4.0 loading...
+[09:00:00] [Info] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | open.mp | 2016 - 2023
+    |-----------------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 17:25:09
+    |----------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD/tree/omp
+
+[09:00:01] [Info] Loading plugin: crashdetect.dll
+[09:00:01] [Info]   CrashDetect plugin 4.20
+[09:00:01] [Info] Loading plugin: mysql.dll
+[09:00:01] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[09:00:01] [Info] Loading plugin: sscanf.dll
+[09:00:01] [Info] 
+
+[09:00:01] [Info]  ===============================
+
+[09:00:01] [Info]       sscanf plugin loaded.     
+
+[09:00:01] [Info]          Version:  2.8.3        
+
+[09:00:01] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:00:01] [Info]  ===============================
+
+[09:00:01] [Info] Loading plugin: streamer.dll
+[09:00:01] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[09:00:01] [Info] Loading plugin: gvar.dll
+[09:00:01] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[09:00:01] [Info] Android check has been successfully loaded.
+[09:00:01] [Info] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[09:00:01] [Info]  
+[09:00:01] [Info]  
+[09:00:01] [Info]          ==============================================================
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[09:00:01] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[09:00:01] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[09:00:01] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[09:00:01] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[09:00:01] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[09:00:01] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[09:00:01] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[09:00:01] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[09:00:01] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[09:00:01] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[09:00:01] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[09:00:01] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[09:00:01] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[09:00:01] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[09:00:01] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          |                      (c) 2021 MPL v1.1                     |
+[09:00:01] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          |                                                            |
+[09:00:01] [Info]          ==============================================================
+[09:00:01] [Info]  
+[09:00:01] [Info]  
+[09:00:01] [Info]  ========================================== 
+[09:00:01] [Info]  |                                        | 
+[09:00:01] [Info]  |   Generating code, this may take a     | 
+[09:00:01] [Info]  |  little bit of time.  Note that this   | 
+[09:00:01] [Info]  |  code generation works best with the   | 
+[09:00:01] [Info]  |     JIT plugin, which you are not      | 
+[09:00:01] [Info]  |     currently using.  Get it here:     | 
+[09:00:01] [Info]  |                                        | 
+[09:00:01] [Info]  |       https://git.io/jit-plugin        | 
+[09:00:01] [Info]  |                                        | 
+[09:00:01] [Info]  |             Please wait...             | 
+[09:00:02] [Info]  |                                        | 
+[09:00:02] [Info]  |                 Done!                  | 
+[09:00:02] [Info]  |                                        | 
+[09:00:02] [Info]  ========================================== 
+[09:00:02] [Info]  |                                        | 
+[09:00:02] [Info]  | Server:      0.3DL - Windows           | 
+[09:00:02] [Info]  | Compiler:    3.10.11 - Windows         | 
+[09:00:02] [Info]  | Codepage:    <none>                    | 
+[09:00:02] [Info]  | YSI:         5.06.1932                 | 
+[09:00:02] [Info]  | Started:     1696917601                | 
+[09:00:02] [Info]  | JIT:         <none>                    | 
+[09:00:02] [Info]  | Crashdetect: <found>                   | 
+[09:00:02] [Info]  |                                        | 
+[09:00:02] [Info]  ========================================== 
+[09:00:02] [Info]  
+[09:00:02] [Info] Unknown command or variable: FIXES_OnClientCheckResponse
+[09:00:02] [Info] Filterscript '../scriptfiles/callbackfix' loaded.
+[09:00:02] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:02] [Info] [debug] AMX backtrace:
+[09:00:02] [Info] [debug] #0 0001675c in ?? (0, 61, 62500104, 1598650688) in <unknown>
+[09:00:02] [Info] [debug] #1 00016aa0 in ?? (0, 0, 62500136, 1598650688) in <unknown>
+[09:00:02] [Info] [debug] #2 00019dd8 in ?? () in <unknown>
+[09:00:02] [Info] [debug] #3 000143f8 in public SSCANF_OnGameModeInit () in <unknown>
+[09:00:02] [Info] [debug] #4 0000a7c8 in public PawnCmd_OnGameModeInit () in <unknown>
+[09:00:02] [Info] [debug] #5 000008c4 in public OnTrailerUpdate () in <unknown>
+[09:00:02] [Info]  
+[09:00:02] [Warning] Deprecated console variable "rcon", use "rcon.enable" instead.
+[09:00:02] [Info] Remote console disabled.
+[09:00:02] [Warning] Deprecated console variable "lagcompmode", use "game.lag_compensation_mode" instead.
+[09:00:02] [Info]  
+[09:00:02] [Info] --------------------------------------
+[09:00:02] [Info]  Anticheat Nex-AC loaded!
+[09:00:02] [Info]  Anticheat version: 1.9.57
+[09:00:02] [Info]  Author: Nexius
+[09:00:02] [Info] --------------------------------------
+
+[09:00:10] [Info] Server: Host
+[09:00:10] [Info] Baza de date nu s-a connectat.
+[09:00:10] [Info] Setting server password to: "3rufberu2fefs"
+[09:00:10] [Info] [Nex-AC] This version of the anticheat is not suitable for the server version
+[09:00:10] [Info] Legacy Network started on port 1234
+[09:00:19] [Info] [debug] Server received interrupt signal
+[09:00:19] [Info] [debug] Native backtrace:
+[09:00:19] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:00:19] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[09:00:19] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[09:00:19] [Info] [debug] #3 72675264 in ?? () in C:\Windows\SYSTEM32\MSVCP140.dll
+[09:00:19] [Info] [debug] #4 007b1d49 in ?? () in omp-server.exe
+[09:00:19] [Info] [debug] #5 0070f549 in ?? () in omp-server.exe
+[09:00:19] [Info] [debug] #6 00708cb6 in ?? () in omp-server.exe
+[09:00:19] [Info] [debug] #7 0092aa70 in ?? () in omp-server.exe
+[09:00:19] [Info] [debug] #8 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[09:00:19] [Info] [debug] #9 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:00:19] [Info] [debug] #10 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:00:19] [Info] [Pawn.CMD] plugin unloaded
+[09:00:19] [Info]  
+[09:00:19] [Info] --------------------------------------
+[09:00:19] [Info]  Statistics anticheat Nex-AC
+[09:00:19] [Info]  Detected and prevented:
+[09:00:19] [Info]   0 cheating attempts
+[09:00:19] [Info]   0 hacking attempts
+[09:00:19] [Info]   0 crashing attempts
+[09:00:19] [Info]   0 flooding attempts
+[09:00:19] [Info]   0 attacks
+[09:00:19] [Info]  Total detected and punished 0 cheaters
+[09:00:19] [Info] --------------------------------------
+
+[09:00:19] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:19] [Info] [debug] AMX backtrace:
+[09:00:19] [Info] [debug] #0 000167c0 in ?? (0, 120, 62500128, 1601784128) in <unknown>
+[09:00:19] [Info] [debug] #1 00016aa0 in ?? (0, 0, 62500160, 1601784128) in <unknown>
+[09:00:19] [Info] [debug] #2 00019f80 in ?? () in <unknown>
+[09:00:19] [Info] [debug] #3 00014608 in public OnGameModeExit () in <unknown>
+[09:00:19] [Info] 
+--------------------------------------
+[09:00:19] [Info]  Android check filterscript unloaded
+[09:00:19] [Info] --------------------------------------
+
+[09:00:19] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[09:00:19] [Info] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+[09:00:19] [Info] 
+
+[09:00:19] [Info]  ===============================
+
+[09:00:20] [Info]      sscanf plugin unloaded.    
+
+[09:00:20] [Info]  ===============================
+
+[09:00:20] [Info] plugin.mysql: Unloading plugin...
+[09:00:20] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Successfully loaded component Pawn.CMD (0.3.4.0) with UID a03b47c907a96c29
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+[09:00:20] [Info] [Pawn.CMD] plugin v3.4.0 loading...
+[09:00:20] [Info] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | open.mp | 2016 - 2023
+    |-----------------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 17:25:09
+    |----------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD/tree/omp
+
+[09:00:20] [Info] Loading plugin: crashdetect.dll
+[09:00:20] [Info]   CrashDetect plugin 4.20
+[09:00:20] [Info] Loading plugin: mysql.dll
+[09:00:20] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[09:00:20] [Info] Loading plugin: sscanf.dll
+[09:00:20] [Info] 
+
+[09:00:20] [Info]  ===============================
+
+[09:00:20] [Info]       sscanf plugin loaded.     
+
+[09:00:20] [Info]          Version:  2.8.3        
+
+[09:00:20] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:00:20] [Info]  ===============================
+
+[09:00:20] [Info] Loading plugin: streamer.dll
+[09:00:20] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[09:00:20] [Info] Loading plugin: gvar.dll
+[09:00:20] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[09:00:20] [Info] Android check has been successfully loaded.
+[09:00:21] [Info] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[09:00:21] [Info]  
+[09:00:21] [Info]  
+[09:00:21] [Info]          ==============================================================
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[09:00:21] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[09:00:21] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[09:00:21] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[09:00:21] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[09:00:21] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[09:00:21] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[09:00:21] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[09:00:21] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[09:00:21] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[09:00:21] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[09:00:21] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[09:00:21] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[09:00:21] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[09:00:21] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[09:00:21] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          |                      (c) 2021 MPL v1.1                     |
+[09:00:21] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          |                                                            |
+[09:00:21] [Info]          ==============================================================
+[09:00:21] [Info]  
+[09:00:21] [Info]  
+[09:00:21] [Info]  ========================================== 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  |   Generating code, this may take a     | 
+[09:00:21] [Info]  |  little bit of time.  Note that this   | 
+[09:00:21] [Info]  |  code generation works best with the   | 
+[09:00:21] [Info]  |     JIT plugin, which you are not      | 
+[09:00:21] [Info]  |     currently using.  Get it here:     | 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  |       https://git.io/jit-plugin        | 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  |             Please wait...             | 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  |                 Done!                  | 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  ========================================== 
+[09:00:21] [Info]  |                                        | 
+[09:00:21] [Info]  | Server:      0.3DL - Windows           | 
+[09:00:21] [Info]  | Compiler:    3.10.11 - Windows         | 
+[09:00:21] [Info]  | Codepage:    <none>                    | 
+[09:00:21] [Info]  | YSI:         5.06.1932                 | 
+[09:00:21] [Info]  | Started:     1696917621                | 
+[09:00:21] [Info]  | JIT:         <none>                    | 
+[09:00:21] [Info]  | Crashdetect: <found>                   | 
+[09:00:21] [Info]  |                                        | 
+[09:00:22] [Info]  ========================================== 
+[09:00:22] [Info]  
+[09:00:22] [Info] Unknown command or variable: FIXES_OnClientCheckResponse
+[09:00:22] [Info] Filterscript '../scriptfiles/callbackfix' loaded.
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 00016730 in ?? (0, 62, 62500104, 1598650688) in <unknown>
+[09:00:22] [Info] [debug] #1 00016aa0 in ?? (0, 0, 62500136, 1598650688) in <unknown>
+[09:00:22] [Info] [debug] #2 00019dd8 in ?? () in <unknown>
+[09:00:22] [Info] [debug] #3 000143f8 in public SSCANF_OnGameModeInit () in <unknown>
+[09:00:22] [Info] [debug] #4 0000a7c8 in public PawnCmd_OnGameModeInit () in <unknown>
+[09:00:22] [Info] [debug] #5 000008c4 in public OnTrailerUpdate () in <unknown>
+[09:00:22] [Info]  
+[09:00:22] [Warning] Deprecated console variable "rcon", use "rcon.enable" instead.
+[09:00:22] [Info] Remote console disabled.
+[09:00:22] [Warning] Deprecated console variable "lagcompmode", use "game.lag_compensation_mode" instead.
+[09:00:22] [Info]  
+[09:00:22] [Info] --------------------------------------
+[09:00:22] [Info]  Anticheat Nex-AC loaded!
+[09:00:22] [Info]  Anticheat version: 1.9.57
+[09:00:22] [Info]  Author: Nexius
+[09:00:22] [Info] --------------------------------------
+
+[09:00:22] [Info] Server: Host
+[09:00:22] [Info] Setting server password to: "3rufberu2fefs"
+[09:00:22] [Info] tjpr*rk" pu.<A@
+[09:00:22] [Info] gamemode hpq123
+[09:00:22] [Info] 604
+[09:00:22] [Info] [Nex-AC] This version of the anticheat is not suitable for the server version
+[09:00:22] [Info] Legacy Network started on port 1234
+[09:00:22] [Info] Setting server password to: "akyybeta"
+[09:00:22] [Info]  -- Server loading succesfully --
+[09:00:22] [Info] [MySQL] DealerShip: 91
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 00144e94 in public SQL_LoadDealerShip () in <unknown>
+[09:00:22] [Info] [MySQL] Houses: 31
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 00205bc0 in public SQL_LoadHouses () in <unknown>
+[09:00:22] [Info] [MySQL] Bussines: 31
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 0006f6d0 in ?? (1239, 23, 1158229770, 1157160960, 1095024666, 0) in <unknown>
+[09:00:22] [Info] [debug] #1 001620e0 in public UpdateBizzLabel (7) in <unknown>
+[09:00:22] [Info] [debug] #2 0015f2ec in public SQL_LoadBussines () in <unknown>
+[09:00:22] [Info] [MySQL] Jobs: 8
+[09:00:22] [Info] [MySQL] Factions: 12
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 002606e0 in public SQL_LoadFactions () in <unknown>
+[09:00:22] [Info] [MySQL] safezone: 30
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 00361384 in public SQL_LoadSafezone () in <unknown>
+[09:00:22] [Info] [MySQL] loading 15 clans..
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 003625a8 in public SQL_LoadClans () in <unknown>
+[09:00:22] [Info] [MySQL] loading 8 server vehicle faction.
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 0036b5d4 in public SQL_Load_ServerVehicleFaction () in <unknown>
+[09:00:22] [Info] [MySQL] Loading 0 seifs..
+[09:00:22] [Info] [MySQL] loading 0 clans vehicles..
+[09:00:22] [Info] [MySQL] Loading 52 turfs..
+[09:00:22] [Warning] Gangzone Y co-ordinates 2.00 and -2.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 2.00 and -2.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 23.00 and 16.00 out of order, inverting.
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 000020e4 in ?? (10592, 1159426048, 1155362816, 1161154560, 1158014976, 1073741824) in <unknown>
+[09:00:22] [Info] [debug] #1 000078dc in ?? (1159426048, 1155362816, 1161154560, 1158014976, -1, 1073741824, 1065353216) in <unknown>
+[09:00:22] [Info] [debug] #2 0036d010 in public SQL_LoadTurfs () in <unknown>
+[09:00:22] [Warning] Gangzone Y co-ordinates 1606.00 and 1589.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1211.00 and 1198.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 831.00 and 784.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 838.00 and 791.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 838.00 and 791.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1281.00 and 1274.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1726.00 and 1710.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 2157.00 and 2144.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 2184.00 and 2137.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1281.00 and 1234.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1281.00 and 1234.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 1724.00 and 1717.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates 2657.00 and 2641.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1218.00 and -1231.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1560.00 and -1607.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -2304.00 and -2351.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -2304.00 and -2351.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -2570.00 and -2577.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1564.00 and -1581.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1216.00 and -1229.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -2198.00 and -2245.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1827.00 and -1874.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1827.00 and -1874.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1109.00 and -1126.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1106.00 and -1113.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1125.00 and -1141.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -997.00 and -1014.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1831.00 and -1848.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1020.00 and -1033.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1493.00 and -1510.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1490.00 and -1537.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1853.00 and -1870.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1414.00 and -1430.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1410.00 and -1457.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1410.00 and -1457.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1481.00 and -1497.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1437.00 and -1450.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1410.00 and -1417.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1436.00 and -1449.00 out of order, inverting.
+[09:00:22] [Warning] Gangzone Y co-ordinates -1878.00 and -1891.00 out of order, inverting.
+[09:00:22] [Info] [MySQL] loading 139 global vehicles.
+[09:00:22] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 0016f928 in ?? (426, 1153052426, 1160884019, 1093210944, 1135807332, 155, 155, -1, 0) in <unknown>
+[09:00:22] [Info] [debug] #1 0035cda8 in public SQL_LoadSvVehicle () in <unknown>
+[09:00:22] [Info] [debug] Run time error 4: "Array index out of bounds"
+[09:00:22] [Info] [debug]  Attempted to read/write array element at index 65535 in array of size 300
+[09:00:22] [Info] [debug] AMX backtrace:
+[09:00:22] [Info] [debug] #0 000c795c in ?? (538, 1154824110, -990610555, 1096327207, 1132547375, 11, 11, -1, 0, 65535) in <unknown>
+[09:00:22] [Info] [debug] #1 0016f5a8 in ?? (538, 1154824110, -990610555, 1096327207, 1132547375, 11, 11, -1, 0) in <unknown>
+[09:00:22] [Info] [debug] #2 0035cda8 in public SQL_LoadSvVehicle () in <unknown>
+[09:00:22] [Info] [MySQL] loading 1 users..
+[09:00:22] [Info] [MySQL] Loading 2 atm...
+[09:00:22] [Info] loading 7 commands blocked!
+[09:00:22] [Info] [Pawn.CMD] PC_SetFlags: invalid unordered_map<K, T> key
+[09:00:22] [Info] [MySQL] DealerShip: 7 Premium vehicles
+[09:03:47] [Info] [debug] Server received interrupt signal
+[09:03:47] [Info] [debug] Native backtrace:
+[09:03:47] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:03:47] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[09:03:47] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[09:03:47] [Info] [debug] #3 72675264 in ?? () in C:\Windows\SYSTEM32\MSVCP140.dll
+[09:03:47] [Info] [debug] #4 007b1d49 in ?? () in omp-server.exe
+[09:03:47] [Info] [debug] #5 0070f549 in ?? () in omp-server.exe
+[09:03:47] [Info] [debug] #6 00708cb6 in ?? () in omp-server.exe
+[09:03:47] [Info] [debug] #7 0092aa70 in ?? () in omp-server.exe
+[09:03:47] [Info] [debug] #8 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[09:03:47] [Info] [debug] #9 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:03:47] [Info] [debug] #10 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[09:03:47] [Info] [Pawn.CMD] plugin unloaded
+[09:03:47] [Info]  
+[09:03:47] [Info] --------------------------------------
+[09:03:47] [Info]  Statistics anticheat Nex-AC
+[09:03:47] [Info]  Detected and prevented:
+[09:03:47] [Info]   0 cheating attempts
+[09:03:47] [Info]   0 hacking attempts
+[09:03:47] [Info]   0 crashing attempts
+[09:03:47] [Info]   0 flooding attempts
+[09:03:47] [Info]   0 attacks
+[09:03:47] [Info]  Total detected and punished 0 cheaters
+[09:03:47] [Info] --------------------------------------
+
+[09:03:47] [Info] [debug] Long callback execution detected (hang or performance issue)
+[09:03:48] [Info] [debug] AMX backtrace:
+[09:03:48] [Info] [debug] #0 000166cc in ?? (0, 53, 62500128, 1601784128) in <unknown>
+[09:03:48] [Info] [debug] #1 00016aa0 in ?? (0, 0, 62500160, 1601784128) in <unknown>
+[09:03:48] [Info] [debug] #2 00019f80 in ?? () in <unknown>
+[09:03:48] [Info] [debug] #3 00014608 in public OnGameModeExit () in <unknown>
+[09:03:48] [Info] 
+--------------------------------------
+[09:03:48] [Info]  Android check filterscript unloaded
+[09:03:48] [Info] --------------------------------------
+
+[09:03:48] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[09:03:48] [Info] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+[09:03:48] [Info] 
+
+[09:03:48] [Info]  ===============================
+
+[09:03:48] [Info]      sscanf plugin unloaded.    
+
+[09:03:48] [Info]  ===============================
+
+[09:03:48] [Info] plugin.mysql: Unloading plugin...
+[09:03:48] [Info] plugin.mysql: Plugin unloaded.
