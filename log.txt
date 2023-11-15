@@ -1341,3 +1341,306 @@ Parsing unknown legacy option profiler_outputformat
 
 [09:03:48] [Info] plugin.mysql: Unloading plugin...
 [09:03:48] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component pawncmd.dll
+	Successfully loaded component Pawn.CMD (0.3.4.0) with UID a03b47c907a96c29
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from D:\rpg.red-zone.ro\components
+Executing Server Config...
+Parsing unknown legacy option profile_gamemode
+Parsing unknown legacy option profiler_gamemodes
+Parsing unknown legacy option profiler_outputformat
+[20:04:26] [Info] [Pawn.CMD] plugin v3.4.0 loading...
+[20:04:26] [Info] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | open.mp | 2016 - 2023
+    |-----------------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 17:25:09
+    |----------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD/tree/omp
+
+[20:04:26] [Info] Loading plugin: crashdetect.dll
+[20:04:26] [Info]   CrashDetect plugin 4.20
+[20:04:26] [Info] Loading plugin: mysql.dll
+[20:04:26] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[20:04:26] [Info] Loading plugin: sscanf.dll
+[20:04:26] [Info] 
+
+[20:04:26] [Info]  ===============================
+
+[20:04:26] [Info]       sscanf plugin loaded.     
+
+[20:04:26] [Info]          Version:  2.8.3        
+
+[20:04:26] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:04:26] [Info]  ===============================
+
+[20:04:26] [Info] Loading plugin: streamer.dll
+[20:04:26] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[20:04:26] [Info] Loading plugin: gvar.dll
+[20:04:26] [Info] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[20:04:26] [Info] Android check has been successfully loaded.
+[20:04:26] [Info] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[20:04:26] [Info]  
+[20:04:26] [Info]  
+[20:04:26] [Info]          ==============================================================
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[20:04:26] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[20:04:26] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[20:04:26] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[20:04:26] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[20:04:26] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[20:04:26] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[20:04:26] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[20:04:26] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[20:04:26] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[20:04:26] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[20:04:26] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[20:04:26] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[20:04:26] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[20:04:26] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[20:04:26] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          |                      (c) 2021 MPL v1.1                     |
+[20:04:26] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          |                                                            |
+[20:04:26] [Info]          ==============================================================
+[20:04:26] [Info]  
+[20:04:26] [Info]  
+[20:04:26] [Info]  ========================================== 
+[20:04:26] [Info]  |                                        | 
+[20:04:26] [Info]  |   Generating code, this may take a     | 
+[20:04:26] [Info]  |  little bit of time.  Note that this   | 
+[20:04:26] [Info]  |  code generation works best with the   | 
+[20:04:26] [Info]  |     JIT plugin, which you are not      | 
+[20:04:26] [Info]  |     currently using.  Get it here:     | 
+[20:04:26] [Info]  |                                        | 
+[20:04:26] [Info]  |       https://git.io/jit-plugin        | 
+[20:04:26] [Info]  |                                        | 
+[20:04:26] [Info]  |             Please wait...             | 
+[20:04:27] [Info]  |                                        | 
+[20:04:27] [Info]  |                 Done!                  | 
+[20:04:27] [Info]  |                                        | 
+[20:04:27] [Info]  ========================================== 
+[20:04:27] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 00014ba4 in ?? (58768428, 58768388, 32, 10) in <unknown>
+[20:04:27] [Info] [debug] #1 00014d70 in ?? () in <unknown>
+[20:04:27] [Info] [debug] #2 000151cc in ?? () in <unknown>
+[20:04:27] [Info] [debug] #3 0001434c in public SSCANF_OnGameModeInit () in <unknown>
+[20:04:27] [Info] [debug] #4 0000a758 in public PawnCmd_OnGameModeInit () in <unknown>
+[20:04:27] [Info] [debug] #5 00000854 in public OnVehicleStreamOut () in <unknown>
+[20:04:27] [Info]  |                                        | 
+[20:04:27] [Info]  | Server:      0.3DL - Windows           | 
+[20:04:27] [Info]  | Compiler:    3.10.11 - Windows         | 
+[20:04:27] [Info]  | Codepage:    <none>                    | 
+[20:04:27] [Info]  | YSI:         5.06.1932                 | 
+[20:04:27] [Info]  | Started:     1696957466                | 
+[20:04:27] [Info]  | JIT:         <none>                    | 
+[20:04:27] [Info]  | Crashdetect: <found>                   | 
+[20:04:27] [Info]  |                                        | 
+[20:04:27] [Info]  ========================================== 
+[20:04:27] [Info]  
+[20:04:27] [Info] Unknown command or variable: FIXES_OnClientCheckResponse
+[20:04:27] [Info] Filterscript '../scriptfiles/callbackfix' loaded.
+[20:04:27] [Info]  
+[20:04:27] [Info] Server: Localhost
+[20:04:27] [Info] Setting server password to: "3rufberu2fefs"
+[20:04:27] [Info] tjpr*rk" pu.<A@
+[20:04:27] [Info] gamemode hpq123
+[20:04:27] [Info] 588
+[20:04:27] [Info] Legacy Network started on port 1234
+[20:04:27] [Info] Server password has been removed.
+[20:04:27] [Info]  -- Server loading succesfully --
+[20:04:27] [Info] [MySQL] DealerShip: 91
+[20:04:27] [Info] [MySQL] Houses: 31
+[20:04:27] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 001a1e4c in public SQL_LoadHouses () in <unknown>
+[20:04:27] [Info] [MySQL] Bussines: 33
+[20:04:27] [Info] [MySQL] Jobs: 8
+[20:04:27] [Info] [MySQL] Factions: 12
+[20:04:27] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 001fcc78 in public SQL_LoadFactions () in <unknown>
+[20:04:27] [Info] [MySQL] safezone: 30
+[20:04:27] [Info] [MySQL] loading 15 clans..
+[20:04:27] [Info] [MySQL] loading 8 server vehicle faction.
+[20:04:27] [Info] [MySQL] Loading 0 seifs..
+[20:04:27] [Info] [MySQL] loading 0 clans vehicles..
+[20:04:27] [Info] [MySQL] Loading 52 turfs..
+[20:04:27] [Warning] Gangzone Y co-ordinates 2.00 and -2.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 2.00 and -2.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 23.00 and 16.00 out of order, inverting.
+[20:04:27] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 00007538 in ?? (1159426048, 1158014976, 1161154560, 1159534592, -1, 1073741824, 1065353216) in <unknown>
+[20:04:27] [Info] [debug] #1 00309f84 in public SQL_LoadTurfs () in <unknown>
+[20:04:27] [Warning] Gangzone Y co-ordinates 1606.00 and 1589.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1211.00 and 1198.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 831.00 and 784.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 838.00 and 791.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 838.00 and 791.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1281.00 and 1274.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1726.00 and 1710.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 2157.00 and 2144.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 2184.00 and 2137.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1281.00 and 1234.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1281.00 and 1234.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 1724.00 and 1717.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates 2657.00 and 2641.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1218.00 and -1231.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1560.00 and -1607.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -2304.00 and -2351.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -2304.00 and -2351.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -2570.00 and -2577.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1564.00 and -1581.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1216.00 and -1229.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -2198.00 and -2245.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1827.00 and -1874.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1827.00 and -1874.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1109.00 and -1126.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1106.00 and -1113.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1125.00 and -1141.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -997.00 and -1014.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1831.00 and -1848.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -996.00 and -1013.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1020.00 and -1033.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1493.00 and -1510.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1490.00 and -1537.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1853.00 and -1870.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1414.00 and -1430.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1410.00 and -1457.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1410.00 and -1457.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1481.00 and -1497.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1437.00 and -1450.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1410.00 and -1417.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1436.00 and -1449.00 out of order, inverting.
+[20:04:27] [Warning] Gangzone Y co-ordinates -1878.00 and -1891.00 out of order, inverting.
+[20:04:27] [Info] [MySQL] loading 139 global vehicles.
+[20:04:27] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 0002c35c in ?? (3805748, 3804544, 301, 29) in <unknown>
+[20:04:27] [Info] [debug] #1 00049520 in ?? (1, 29) in <unknown>
+[20:04:27] [Info] [debug] #2 0004943c in public @@Iter_VehicleDo (1, 29, -1) in <unknown>
+[20:04:27] [Info] [debug] #3 native CallRemoteFunction () in Pawn.dll
+[20:04:27] [Info] [debug] #4 000171c4 in ?? (3805908, 3805976, 58768428, 58768432, 122464) in <unknown>
+[20:04:27] [Info] [debug] #5 ffffffff in public SQL_LoadSvVehicle () in <unknown>
+[20:04:27] [Info] [debug] Run time error 4: "Array index out of bounds"
+[20:04:27] [Info] [debug]  Attempted to read/write array element at index 65535 in array of size 300
+[20:04:27] [Info] [debug] AMX backtrace:
+[20:04:27] [Info] [debug] #0 00064168 in ?? (538, 1154824110, -990610555, 1096327207, 1132547375, 11, 11, -1, 0, 65535) in <unknown>
+[20:04:27] [Info] [debug] #1 0010bf5c in ?? (538, 1154824110, -990610555, 1096327207, 1132547375, 11, 11, -1, 0) in <unknown>
+[20:04:27] [Info] [debug] #2 002f9cfc in public SQL_LoadSvVehicle () in <unknown>
+[20:04:27] [Info] [MySQL] loading 2 users..
+[20:04:27] [Info] [MySQL] Loading 2 atm...
+[20:04:27] [Info] loading 7 commands blocked!
+[20:04:27] [Info] [Pawn.CMD] PC_SetFlags: invalid unordered_map<K, T> key
+[20:04:27] [Info] [MySQL] DealerShip: 7 Premium vehicles
+[20:06:03] [Info] [connection] incoming connection: 127.0.0.1:51935 id: 0
+[20:06:03] [Info] [join] HPQ123 has joined the server (0:127.0.0.1)
+[20:06:03] [Info] HPQ123 72 529855266 0 1
+[20:06:03] [Info] HPQ123 72 529855266 0 1
+[20:06:30] [Warning] Using unsafe hashing function SHA256_PassHash
+[20:06:30] [Info] HPQ123 loading 53 textdraws..
+[20:06:30] [Info] Loading 1 vehicle personals on HPQ123
+[20:15:32] [Info] [debug] Server received interrupt signal
+[20:15:32] [Info] [debug] Native backtrace:
+[20:15:32] [Info] [debug] #0 7759696c in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[20:15:32] [Info] [debug] #1 7625cecf in ?? () in C:\Windows\System32\KERNELBASE.dll
+[20:15:32] [Info] [debug] #2 7625ce6f in ?? () in C:\Windows\System32\KERNELBASE.dll
+[20:15:32] [Info] [debug] #3 726a5264 in ?? () in C:\Windows\SYSTEM32\MSVCP140.dll
+[20:15:32] [Info] [debug] #4 00981d49 in ?? () in omp-server.exe
+[20:15:32] [Info] [debug] #5 008df549 in ?? () in omp-server.exe
+[20:15:32] [Info] [debug] #6 008d8cb6 in ?? () in omp-server.exe
+[20:15:32] [Info] [debug] #7 00afaa70 in ?? () in omp-server.exe
+[20:15:32] [Info] [debug] #8 758c7ba9 in ?? () in C:\Windows\System32\KERNEL32.DLL
+[20:15:32] [Info] [debug] #9 7758bc5b in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[20:15:32] [Info] [debug] #10 7758bbdf in ?? () in C:\Windows\SYSTEM32\ntdll.dll
+[20:15:32] [Info] [Pawn.CMD] plugin unloaded
+[20:15:32] [Info] [debug] Long callback execution detected (hang or performance issue)
+[20:15:32] [Info] [debug] AMX backtrace:
+[20:15:32] [Info] [debug] #0 00016768 in ?? (0, 7, 58768552, 1601784128) in <unknown>
+[20:15:32] [Info] [debug] #1 00016a30 in ?? (0, 0, 58768584, 1601784128) in <unknown>
+[20:15:32] [Info] [debug] #2 00019f10 in ?? () in <unknown>
+[20:15:32] [Info] [debug] #3 00014598 in public OnGameModeExit () in <unknown>
+[20:15:32] [Info] 
+--------------------------------------
+[20:15:32] [Info]  Android check filterscript unloaded
+[20:15:32] [Info] --------------------------------------
+
+[20:15:32] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[20:15:32] [Info] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+[20:15:32] [Info] 
+
+[20:15:32] [Info]  ===============================
+
+[20:15:32] [Info]      sscanf plugin unloaded.    
+
+[20:15:32] [Info]  ===============================
+
+[20:15:32] [Info] plugin.mysql: Unloading plugin...
+[20:15:32] [Info] plugin.mysql: Plugin unloaded.

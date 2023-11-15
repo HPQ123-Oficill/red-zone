@@ -211,23 +211,23 @@ function ShowPlayerVehicle(playerid) {
 	if(GetPlayerTotalVehicle(playerid) == 0) 
 		return SCM(playerid, COLOR_LGREEN, "You don't own a car");
 
-	new szDialog[100 * MAX_PLAYER_VEHICLE] = {"Vehicul\tStatus\tUpgrades\tTime despawn\n"}, x = 0; gString[0] = EOS;
+	new szDialog[100 * MAX_PLAYER_VEHICLE] = {"Vehicul\tStatus\tUpgrades\tTime despawn\n"}, x = 0, string[128];
 	foreach(new idd : MyVehicles<playerid>) {
 		new time_car[] = {"not spawned"};
 		if(CarInfo[idd][cSpawned]!=INVALID_VEHICLE) {
 			if(CarInfo[idd][cTime] > gettime()) format(time_car, sizeof time_car, "%02d:%02d", (CarInfo[idd][cTime] - gettime())/60, (CarInfo[idd][cTime] - gettime()) % 60);
 			else time_car[0]=0, strcat(time_car, !IsVehicleOccupied(CarInfo[idd][cSpawned])?"soon":"-");
 		}
-		format(gString, 100, "%s\t%s\t%s\t%s\t%s\n", 
+		format(string, sizeof string, "%s\t%s\t%s\t%s\t%s\n", 
 		GetVehicleName(CarInfo[idd][cModel]), 
 		CarInfo[idd][cSpawned]!= 0?IsVehicleOccupied(CarInfo[idd][cSpawned])?("{F3C92E}[occupeid]"):("{0C370A}[spawned]"):("{FB0404}[despawned]"),
 		GetVehicleUpgrades(idd), time_car);
-		strcat(szDialog, gString);
+		strcat(szDialog, string);
 		PlayerInfo[playerid][pCarKey][x] = idd, x++;
 	}
 	//if(Iter_Count(MyVehicles<playerid>) >= 3) strcat(szDialog, "Spawn all vehicles\n");
-	format(gString, 30, "My vehicles: %d/%d", GetPlayerTotalVehicle(playerid), GetPlayerSlot(playerid));
-	Dialog_ShowPages(playerid, DIALOG_V, DIALOG_STYLE_TABLIST_HEADERS, gString, szDialog, "Select", "Close");
+	format(string, 30, "My vehicles: %d/%d", GetPlayerTotalVehicle(playerid), GetPlayerSlot(playerid));
+	Dialog_ShowPages(playerid, DIALOG_V, DIALOG_STYLE_TABLIST_HEADERS, string, szDialog, "Select", "Close");
 	return true;
 }
 
